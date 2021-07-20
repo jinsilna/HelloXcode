@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
+    @IBOutlet weak var lbl: UIButton!
+    
+    @IBAction func doSomething(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
